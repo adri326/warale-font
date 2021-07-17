@@ -97,6 +97,7 @@ ttf2woff -t ttf -i Warale\ Font.ttf
 This repository is multi-licensed with [MIT](https://mit-license.org), [ISC](https://en.wikipedia.org/wiki/ISC_license), [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html), [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) and [OFL](https://scripts.sil.org/OFL).
 
 You may choose any of these licenses for your projects.
+You can find the different license files in the `licenses/` folder.
 
 You may re-distribute this font using any of these licenses; when doing so, you must keep the chosen `LICENSE` file(s) (and, if needed, the corresponding `legalcode.txt` file(s)).
 I also recommend that you link back to this repository (https://github.com/adri326/warale-font/).
