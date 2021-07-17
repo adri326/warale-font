@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Warale";
+    src:
+        url("Warale Font.ttf") format("truetype"),
+        url("Warale Font.woff") format("woff");
+}
