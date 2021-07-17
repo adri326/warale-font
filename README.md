@@ -52,11 +52,10 @@ You can host the font yourself and use the provided CSS `@font-face` rule or dir
 ### Generating the bitmaps
 
 To generate the bitmaps, you will need to open `Warale Font.kra` with [Krita](https://krita.org/).
-Make sure that the "to DF format" filter is disabled (the eye on its left should be closed).
 
 Then, hit `File > Export`, choose PNG as the format and save the file as `Warale Font.png`.
 
-If you want to export the White/Magenta bitmap too, re-enable the "to DF format" filter and export to `warale_df.png`.
+If you want to export the White/Magenta bitmap too, simply run the script `make-df-font.sh`, which will extract the first 192x192 square and map the black/white pixels to white/magenta.
 
 ### Generating the .ttf
 
@@ -94,7 +93,7 @@ ttf2woff -t ttf -i Warale\ Font.ttf
 
 ## Licensing
 
-This repository is multi-licensed with [MIT](https://mit-license.org), [ISC](https://en.wikipedia.org/wiki/ISC_license), [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html), [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) and [OFL](https://scripts.sil.org/OFL).
+This repository is multi-licensed with [MIT](https://mit-license.org), [ISC](https://en.wikipedia.org/wiki/ISC_license), [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) (implicitely [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)) and [OFL](https://scripts.sil.org/OFL).
 
 You may choose any of these licenses for your projects.
 You can find the different license files in the `licenses/` folder.
