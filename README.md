@@ -8,6 +8,8 @@ However, I had to use non-FOSS tools to generate the actual .ttf files, namely [
 The font is `12px x 12px`; each pixel is `128` units big and the EM size is set to `10*128 = 1280`.
 For a pixel-perfect render, you should thus set the font size to a multiple of `10px` and set the line-height to a multiple `12px` (or simply `1.2em`).
 
+![Font Preview](assets/preview.png)
+
 ## Usage
 
 To download this repository, you can run
